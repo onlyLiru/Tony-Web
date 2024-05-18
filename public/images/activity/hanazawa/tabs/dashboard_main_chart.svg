@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="154px" height="147px" viewBox="0 0 154 147" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 18</title>
+    <defs>
+        <linearGradient x1="2.06947943%" y1="9.16151643%" x2="93.815856%" y2="98.625469%" id="linearGradient-1">
+            <stop stop-color="#6F9FF3" offset="0%"></stop>
+            <stop stop-color="#473874" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="香菜" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="花泽香菜mint-dashboard" transform="translate(-399.000000, -1540.000000)">
+            <g id="编组-46" transform="translate(330.000000, 1511.000000)">
+                <g id="编组-18" transform="translate(70.000000, 30.000000)">
+                    <g id="编组" stroke="#FFFFFF">
+                        <polygon id="Stroke-1" points="76 0 0 55.3847387 29.0300086 145 122.97159 145 152 55.3847387"></polygon>
+                        <polygon id="Stroke-3" points="76.3679523 22.8172589 22.0289855 62.1776863 42.7854917 125.862944 109.952018 125.862944 130.705314 62.1776863"></polygon>
+                    </g>
+                    <polygon id="路径-3" fill="url(#linearGradient-1)" opacity="0.894840059" points="76.3671498 22.15501 0.633486375 55.5800371 34.524195 138.291821 120.731595 141.705739 139.5 58.9930477"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

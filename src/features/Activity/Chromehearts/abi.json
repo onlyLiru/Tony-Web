@@ -1,0 +1,560 @@
+[
+  {
+    "type": "constructor",
+    "inputs": [
+      { "type": "address", "name": "_receiver", "internalType": "address" },
+      { "type": "uint96", "name": "_fee", "internalType": "uint96" },
+      { "type": "string", "name": "_baseUri", "internalType": "string" }
+    ]
+  },
+  {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [{ "type": "uint256", "name": "", "internalType": "uint256" }],
+    "name": "MicDollTypeX",
+    "inputs": []
+  },
+  {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [{ "type": "uint256", "name": "", "internalType": "uint256" }],
+    "name": "MicDollTypeY",
+    "inputs": []
+  },
+  {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [
+      {
+        "type": "address",
+        "name": "",
+        "internalType": "contract IOperatorFilterRegistry"
+      }
+    ],
+    "name": "OPERATOR_FILTER_REGISTRY",
+    "inputs": []
+  },
+  {
+    "type": "function",
+    "stateMutability": "nonpayable",
+    "outputs": [],
+    "name": "addRecipientsPhase",
+    "inputs": [
+      {
+        "type": "address[]",
+        "name": "_recipientsPhase",
+        "internalType": "address[]"
+      },
+      { "type": "uint256", "name": "_phase", "internalType": "uint256" }
+    ]
+  },
+  {
+    "type": "function",
+    "stateMutability": "nonpayable",
+    "outputs": [],
+    "name": "approve",
+    "inputs": [
+      { "type": "address", "name": "operator", "internalType": "address" },
+      { "type": "uint256", "name": "tokenId", "internalType": "uint256" }
+    ]
+  },
+  {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [{ "type": "uint256", "name": "", "internalType": "uint256" }],
+    "name": "balanceOf",
+    "inputs": [
+      { "type": "address", "name": "owner", "internalType": "address" }
+    ]
+  },
+  {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [{ "type": "string", "name": "", "internalType": "string" }],
+    "name": "baseUri",
+    "inputs": []
+  },
+  {
+    "type": "function",
+    "stateMutability": "payable",
+    "outputs": [],
+    "name": "claim",
+    "inputs": [
+      { "type": "uint256", "name": "micDollType", "internalType": "uint256" },
+      { "type": "uint256", "name": "sourceType", "internalType": "uint256" }
+    ]
+  },
+  {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [{ "type": "uint256", "name": "", "internalType": "uint256" }],
+    "name": "claimedCountPhase1X",
+    "inputs": []
+  },
+  {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [{ "type": "uint256", "name": "", "internalType": "uint256" }],
+    "name": "claimedCountPhase1Y",
+    "inputs": []
+  },
+  {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [{ "type": "uint256", "name": "", "internalType": "uint256" }],
+    "name": "claimedCountPhase2X",
+    "inputs": []
+  },
+  {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [{ "type": "uint256", "name": "", "internalType": "uint256" }],
+    "name": "claimedCountPhase2Y",
+    "inputs": []
+  },
+  {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [{ "type": "uint256", "name": "", "internalType": "uint256" }],
+    "name": "claimedCountPhase3X",
+    "inputs": []
+  },
+  {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [{ "type": "uint256", "name": "", "internalType": "uint256" }],
+    "name": "claimedCountPhase3Y",
+    "inputs": []
+  },
+  {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [{ "type": "address", "name": "", "internalType": "address" }],
+    "name": "getApproved",
+    "inputs": [
+      { "type": "uint256", "name": "tokenId", "internalType": "uint256" }
+    ]
+  },
+  {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [{ "type": "uint256", "name": "", "internalType": "uint256" }],
+    "name": "getRemainCountPhase1",
+    "inputs": []
+  },
+  {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [{ "type": "uint256", "name": "", "internalType": "uint256" }],
+    "name": "getRemainCountPhase2",
+    "inputs": []
+  },
+  {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [{ "type": "uint256", "name": "", "internalType": "uint256" }],
+    "name": "getRemainCountPhase3",
+    "inputs": []
+  },
+  {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [{ "type": "bool", "name": "", "internalType": "bool" }],
+    "name": "isApprovedForAll",
+    "inputs": [
+      { "type": "address", "name": "owner", "internalType": "address" },
+      { "type": "address", "name": "operator", "internalType": "address" }
+    ]
+  },
+  {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [{ "type": "string", "name": "", "internalType": "string" }],
+    "name": "name",
+    "inputs": []
+  },
+  {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [{ "type": "address", "name": "", "internalType": "address" }],
+    "name": "owner",
+    "inputs": []
+  },
+  {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [{ "type": "address", "name": "", "internalType": "address" }],
+    "name": "ownerOf",
+    "inputs": [
+      { "type": "uint256", "name": "tokenId", "internalType": "uint256" }
+    ]
+  },
+  {
+    "type": "function",
+    "stateMutability": "nonpayable",
+    "outputs": [],
+    "name": "pause",
+    "inputs": []
+  },
+  {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [{ "type": "bool", "name": "", "internalType": "bool" }],
+    "name": "paused",
+    "inputs": []
+  },
+  {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [{ "type": "uint256", "name": "", "internalType": "uint256" }],
+    "name": "phaseStopStatus",
+    "inputs": []
+  },
+  {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [{ "type": "uint256", "name": "", "internalType": "uint256" }],
+    "name": "priceMicDollX",
+    "inputs": []
+  },
+  {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [{ "type": "uint256", "name": "", "internalType": "uint256" }],
+    "name": "priceMicDollY",
+    "inputs": []
+  },
+  {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [{ "type": "uint256", "name": "", "internalType": "uint256" }],
+    "name": "recipientsPhase1",
+    "inputs": [{ "type": "address", "name": "", "internalType": "address" }]
+  },
+  {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [{ "type": "uint256", "name": "", "internalType": "uint256" }],
+    "name": "recipientsPhase2",
+    "inputs": [{ "type": "address", "name": "", "internalType": "address" }]
+  },
+  {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [{ "type": "uint256", "name": "", "internalType": "uint256" }],
+    "name": "recipientsPhase3",
+    "inputs": [{ "type": "address", "name": "", "internalType": "address" }]
+  },
+  {
+    "type": "function",
+    "stateMutability": "nonpayable",
+    "outputs": [],
+    "name": "removeRecipientsPhase",
+    "inputs": [
+      {
+        "type": "address[]",
+        "name": "_recipientsPhase",
+        "internalType": "address[]"
+      },
+      { "type": "uint256", "name": "_phase", "internalType": "uint256" }
+    ]
+  },
+  {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [],
+    "name": "renounceOwnership",
+    "inputs": []
+  },
+  {
+    "type": "function",
+    "stateMutability": "nonpayable",
+    "outputs": [],
+    "name": "retrieveETH",
+    "inputs": []
+  },
+  {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [
+      { "type": "address", "name": "", "internalType": "address" },
+      { "type": "uint256", "name": "", "internalType": "uint256" }
+    ],
+    "name": "royaltyInfo",
+    "inputs": [
+      { "type": "uint256", "name": "_tokenId", "internalType": "uint256" },
+      { "type": "uint256", "name": "_salePrice", "internalType": "uint256" }
+    ]
+  },
+  {
+    "type": "function",
+    "stateMutability": "nonpayable",
+    "outputs": [],
+    "name": "safeTransferFrom",
+    "inputs": [
+      { "type": "address", "name": "from", "internalType": "address" },
+      { "type": "address", "name": "to", "internalType": "address" },
+      { "type": "uint256", "name": "tokenId", "internalType": "uint256" }
+    ]
+  },
+  {
+    "type": "function",
+    "stateMutability": "nonpayable",
+    "outputs": [],
+    "name": "safeTransferFrom",
+    "inputs": [
+      { "type": "address", "name": "from", "internalType": "address" },
+      { "type": "address", "name": "to", "internalType": "address" },
+      { "type": "uint256", "name": "tokenId", "internalType": "uint256" },
+      { "type": "bytes", "name": "data", "internalType": "bytes" }
+    ]
+  },
+  {
+    "type": "function",
+    "stateMutability": "nonpayable",
+    "outputs": [],
+    "name": "setApprovalForAll",
+    "inputs": [
+      { "type": "address", "name": "operator", "internalType": "address" },
+      { "type": "bool", "name": "approved", "internalType": "bool" }
+    ]
+  },
+  {
+    "type": "function",
+    "stateMutability": "nonpayable",
+    "outputs": [],
+    "name": "setBaseURI",
+    "inputs": [
+      { "type": "string", "name": "_baseUri", "internalType": "string" }
+    ]
+  },
+  {
+    "type": "function",
+    "stateMutability": "nonpayable",
+    "outputs": [],
+    "name": "setDefaultRoyalty",
+    "inputs": [
+      { "type": "address", "name": "receiver", "internalType": "address" },
+      { "type": "uint96", "name": "feeNumerator", "internalType": "uint96" }
+    ]
+  },
+  {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [{ "type": "bool", "name": "", "internalType": "bool" }],
+    "name": "supportsInterface",
+    "inputs": [
+      { "type": "bytes4", "name": "interfaceId", "internalType": "bytes4" }
+    ]
+  },
+  {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [{ "type": "string", "name": "", "internalType": "string" }],
+    "name": "symbol",
+    "inputs": []
+  },
+  {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [{ "type": "uint256", "name": "", "internalType": "uint256" }],
+    "name": "tokenByIndex",
+    "inputs": [
+      { "type": "uint256", "name": "index", "internalType": "uint256" }
+    ]
+  },
+  {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [{ "type": "uint256", "name": "", "internalType": "uint256" }],
+    "name": "tokenIDStart",
+    "inputs": []
+  },
+  {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [{ "type": "uint256", "name": "", "internalType": "uint256" }],
+    "name": "tokenOfOwnerByIndex",
+    "inputs": [
+      { "type": "address", "name": "owner", "internalType": "address" },
+      { "type": "uint256", "name": "index", "internalType": "uint256" }
+    ]
+  },
+  {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [{ "type": "string", "name": "", "internalType": "string" }],
+    "name": "tokenURI",
+    "inputs": [
+      { "type": "uint256", "name": "tokenId", "internalType": "uint256" }
+    ]
+  },
+  {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [{ "type": "uint256", "name": "", "internalType": "uint256" }],
+    "name": "totalMicDoll",
+    "inputs": []
+  },
+  {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [{ "type": "uint256", "name": "", "internalType": "uint256" }],
+    "name": "totalPhase1X",
+    "inputs": []
+  },
+  {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [{ "type": "uint256", "name": "", "internalType": "uint256" }],
+    "name": "totalPhase1Y",
+    "inputs": []
+  },
+  {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [{ "type": "uint256", "name": "", "internalType": "uint256" }],
+    "name": "totalPhase2X",
+    "inputs": []
+  },
+  {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [{ "type": "uint256", "name": "", "internalType": "uint256" }],
+    "name": "totalPhase2Y",
+    "inputs": []
+  },
+  {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [{ "type": "uint256", "name": "", "internalType": "uint256" }],
+    "name": "totalPhase3X",
+    "inputs": []
+  },
+  {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [{ "type": "uint256", "name": "", "internalType": "uint256" }],
+    "name": "totalPhase3Y",
+    "inputs": []
+  },
+  {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [{ "type": "uint256", "name": "", "internalType": "uint256" }],
+    "name": "totalSupply",
+    "inputs": []
+  },
+  {
+    "type": "function",
+    "stateMutability": "nonpayable",
+    "outputs": [],
+    "name": "transferFrom",
+    "inputs": [
+      { "type": "address", "name": "from", "internalType": "address" },
+      { "type": "address", "name": "to", "internalType": "address" },
+      { "type": "uint256", "name": "tokenId", "internalType": "uint256" }
+    ]
+  },
+  {
+    "type": "function",
+    "stateMutability": "nonpayable",
+    "outputs": [],
+    "name": "transferOwnership",
+    "inputs": [
+      { "type": "address", "name": "newOwner", "internalType": "address" }
+    ]
+  },
+  {
+    "type": "function",
+    "stateMutability": "nonpayable",
+    "outputs": [],
+    "name": "unpause",
+    "inputs": []
+  },
+  {
+    "type": "event",
+    "name": "Approval",
+    "inputs": [
+      { "type": "address", "name": "owner", "indexed": true },
+      { "type": "address", "name": "approved", "indexed": true },
+      { "type": "uint256", "name": "tokenId", "indexed": true }
+    ],
+    "anonymous": false
+  },
+  {
+    "type": "event",
+    "name": "ApprovalForAll",
+    "inputs": [
+      { "type": "address", "name": "owner", "indexed": true },
+      { "type": "address", "name": "operator", "indexed": true },
+      { "type": "bool", "name": "approved", "indexed": false }
+    ],
+    "anonymous": false
+  },
+  {
+    "type": "event",
+    "name": "Claim",
+    "inputs": [
+      { "type": "address", "name": "sender", "indexed": false },
+      { "type": "uint256", "name": "tokenId", "indexed": false },
+      { "type": "uint256", "name": "amount", "indexed": false },
+      { "type": "uint256", "name": "source", "indexed": false }
+    ],
+    "anonymous": false
+  },
+  {
+    "type": "event",
+    "name": "OwnershipTransferred",
+    "inputs": [
+      { "type": "address", "name": "previousOwner", "indexed": true },
+      { "type": "address", "name": "newOwner", "indexed": true }
+    ],
+    "anonymous": false
+  },
+  {
+    "type": "event",
+    "name": "Paused",
+    "inputs": [{ "type": "address", "name": "account", "indexed": false }],
+    "anonymous": false
+  },
+  {
+    "type": "event",
+    "name": "Transfer",
+    "inputs": [
+      { "type": "address", "name": "from", "indexed": true },
+      { "type": "address", "name": "to", "indexed": true },
+      { "type": "uint256", "name": "tokenId", "indexed": true }
+    ],
+    "anonymous": false
+  },
+  {
+    "type": "event",
+    "name": "Unpaused",
+    "inputs": [{ "type": "address", "name": "account", "indexed": false }],
+    "anonymous": false
+  },
+  {
+    "type": "event",
+    "name": "ethReceived",
+    "inputs": [
+      { "type": "address", "name": "sender", "indexed": false },
+      { "type": "uint256", "name": "value", "indexed": false }
+    ],
+    "anonymous": false
+  },
+  { "type": "error", "name": "INVALID_MIC_TYPE", "inputs": [] },
+  { "type": "error", "name": "INVALID_PHASE", "inputs": [] },
+  { "type": "error", "name": "INVALID_PRICE", "inputs": [] },
+  { "type": "error", "name": "INVALID_RECEIVER_ADDRESS", "inputs": [] },
+  { "type": "error", "name": "ONLY_ALLOW_EOA", "inputs": [] },
+  {
+    "type": "error",
+    "name": "OperatorNotAllowed",
+    "inputs": [
+      { "type": "address", "name": "operator", "internalType": "address" }
+    ]
+  },
+  { "type": "error", "name": "REACH_MAX_COUNT", "inputs": [] },
+  { "type": "receive" }
+]

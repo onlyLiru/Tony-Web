@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 28</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="28" height="28"></rect>
+        <linearGradient x1="0%" y1="0%" x2="100%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#6F9FF3" offset="0%"></stop>
+            <stop stop-color="#473874" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="香菜" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="H5花泽香菜mint-dashboard" transform="translate(-42.000000, -1824.000000)">
+            <g id="编组-28" transform="translate(42.000000, 1824.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="蒙版"></g>
+                <g mask="url(#mask-2)" id="椭圆形">
+                    <g transform="translate(14.000000, 12.000000) rotate(-45.000000) translate(-14.000000, -12.000000) translate(3.000000, 1.000000)">
+                        <path d="M11,0.5 C13.8994949,0.5 16.5244949,1.67525253 18.4246212,3.5753788 C20.3247475,5.47550506 21.5,8.10050506 21.5,11 C21.5,13.8994949 20.3247475,16.5244949 18.4246212,18.4246212 C16.5244949,20.3247475 13.8994949,21.5 11,21.5 L11,21.5 L0.5,21.5 L0.5,11 C0.5,8.10050506 1.67525253,5.47550506 3.5753788,3.5753788 C5.47550506,1.67525253 8.10050506,0.5 11,0.5 Z" stroke="url(#linearGradient-3)" stroke-width="1" fill="none"></path>
+                        <path d="M10.9375,2.5 C13.2674513,2.5 15.3768263,3.44439936 16.9037135,4.97128653 C18.4306006,6.49817371 19.375,8.60754871 19.375,10.9375 C19.375,13.2674513 18.4306006,15.3768263 16.9037135,16.9037135 C15.3768263,18.4306006 13.2674513,19.375 10.9375,19.375 L10.9375,19.375 L2.5,19.375 L2.5,10.9375 C2.5,8.60754871 3.44439936,6.49817371 4.97128653,4.97128653 C6.49817371,3.44439936 8.60754871,2.5 10.9375,2.5 Z" stroke="url(#linearGradient-3)" stroke-width="1" fill="url(#linearGradient-3)" fill-rule="evenodd"></path>
+                        <circle stroke="none" fill="#D8D8D8" fill-rule="evenodd" cx="11" cy="11" r="7"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
